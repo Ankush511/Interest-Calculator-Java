@@ -8,7 +8,7 @@ public class InterestCalculator {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("SELECT THE OPTIONS " + "\n1." + " Interest Calculator-SB" + " \n2." + " Interest Calculator-FD"
-                + "\n3." + " InterestCalculator-RD" + "\n4. " + " Exit");
+                + "\n3." + " InterestCalculator-RD" + "\n4. " + "Exit");
         int choice = sc.nextInt();
         switch (choice) {
             case 1:
@@ -58,10 +58,7 @@ public class InterestCalculator {
                 break;
 
             case 4:
-                System.out.println("DO YOU WANT TO CALCULATE AGAIN ????" + " "
-                        + "RUN AGAIN THE PROGRAM");
-            default:
-                System.out.println("Wrong choice");
+                return;
 
         }
     }
